@@ -21,13 +21,7 @@ export class Searchbar extends Component {
   };
 
   render() {
-    const {
-      Searchbar,
-      SearchForm,
-      SearchFormButton,
-      SearchFormInput,
-      SearchFormButtonLabel,
-    } = styles;
+    const { Searchbar, SearchForm, SearchFormButton, SearchFormInput } = styles;
     const { searchQuery } = this.state;
 
     return (
